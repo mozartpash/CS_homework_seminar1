@@ -2,3 +2,30 @@
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
+
+Console.WriteLine("Введите первое число ");
+int number1 = int.Parse(Console.ReadLine()!);
+//Console.WriteLine(number1);
+Console.WriteLine("Введите второе число ");
+int number2 = int.Parse(Console.ReadLine()!);
+//Console.WriteLine(number2);
+Console.WriteLine("Введите третье число ");
+int number3 = int.Parse(Console.ReadLine()!);
+//Console.WriteLine(number3);
+int max = number1;
+    if(max > number2)
+    {
+        max = number2;
+    }
+    
+    if(max > number3)
+    {
+        max = number3;
+    }
+    
+else
+{
+Console.WriteLine("Нет максимального числа");
+}
+Console.WriteLine("Максимальное число " + max);
+//неверный алгоритм, не правильно выводит результат
