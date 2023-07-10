@@ -3,7 +3,7 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-Console.WriteLine("Введите первое число ");
+Console.WriteLine("Введите первое число: ");
 int number1 = int.Parse(Console.ReadLine()!);
 //Console.WriteLine(number1);
 Console.WriteLine("Введите второе число ");
